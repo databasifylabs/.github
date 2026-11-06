@@ -6,7 +6,7 @@ Databasify turns a few Linux servers you own into highly available PostgreSQL, M
 
 ## What you get
 
-- **Clusters, not single instances:** a primary with standbys, automatic failover and read-only nodes
+- **Start small, scale to a cluster:** a single primary, then standbys with automatic failover and read-only nodes whenever you need them
 - **Six engines:** PostgreSQL 17 and 18, MySQL 8.4 and 9.7, MariaDB 11.4 and 11.8, MongoDB 7.0, 8.0 and 9.0, Valkey 8 and 9, Redis 8
 - **Safe by default:** TLS everywhere (a CA file is optional), private networking, firewalls and hostnames on your own domain
 - **Day-two operations:** backups with point-in-time recovery to any S3-compatible bucket, connection pools, users, metrics, live activity logs and email alerts
