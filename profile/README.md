@@ -4,6 +4,8 @@
 
 Databasify runs PostgreSQL, MySQL, MariaDB, MongoDB, Valkey and Redis on Linux servers you own, from a single node to a highly available cluster, with one web UI to run them: the managed database experience, self-hosted, without the per-node markup.
 
+**[Read the documentation →](https://docs.databasify.io)**
+
 ## What you get
 
 - **Start small, scale to a cluster:** a single primary, then standbys with automatic failover and read-only nodes whenever you need them
@@ -19,8 +21,9 @@ Databasify runs PostgreSQL, MySQL, MariaDB, MongoDB, Valkey and Redis on Linux s
 
 | Project | What it is |
 |---|---|
-| [databasify](https://github.com/databasifylabs/databasify) | The control plane: a Laravel and React app that sets up and runs your clusters over SSH |
+| [databasify](https://github.com/databasifylabs/databasify) | The control plane: a Laravel and React app that sets up and runs your databases over SSH |
 | [engines](https://github.com/databasifylabs/engines) | `ghcr.io/databasifylabs/databasify-<engine>`: the official database images, extended with HA and backup tools and a small Go supervisor |
+| [docs](https://github.com/databasifylabs/docs) | The documentation site at [docs.databasify.io](https://docs.databasify.io), built with Starlight |
 
 ## Get started
 
