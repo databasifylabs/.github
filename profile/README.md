@@ -2,7 +2,7 @@
 
 **Open-source alternative to DigitalOcean Managed Databases, Amazon RDS and Aiven.**
 
-Databasify turns a few Linux servers you own into highly available PostgreSQL, MySQL, MariaDB, MongoDB, Valkey and Redis clusters, with one web UI to run them: the managed database experience, self-hosted, without the per-node markup.
+Databasify runs PostgreSQL, MySQL, MariaDB, MongoDB, Valkey and Redis on Linux servers you own, from a single node to a highly available cluster, with one web UI to run them: the managed database experience, self-hosted, without the per-node markup.
 
 ## What you get
 
